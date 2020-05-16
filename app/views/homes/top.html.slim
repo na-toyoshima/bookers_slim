@@ -1,0 +1,22 @@
+/ <div class="container">
+div.container
+  div.row
+    div.col-md-offset-1.col-md-11
+      b
+        h1
+          | welcome to
+          span.glyphicon.glyphicon-book
+          |
+            Bookers !!
+        h4
+          | In
+          span.glyphicon.glyphicon-book
+          |
+            Bookers,you can share and exchange your opinions, inpressions, and emotions<br>
+            about various books!
+
+  div.btn.wrapper
+    div.row
+      =link_to "Log in", root_path, class: "btn btn-primary sign_in"
+      br
+      =link_to "Sign up", root_path, class: "btn btn-success sign-up"
